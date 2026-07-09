@@ -1,0 +1,11 @@
+exemplos de leitura:
+
+read()
+with open ("exemplos.txt", "r") as f:
+    conteudo = f.read()
+    print(conteudo)
+
+readline()
+with open("exemplo.txt", "r") as f:
+    linha1 = f.readline()
+    linha2 = f.readline()

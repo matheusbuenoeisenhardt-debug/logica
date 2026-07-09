@@ -1,0 +1,17 @@
+Titulo: O Poderoso Chefao
+Ano: 1972
+Diretor: Francis Ford Coppola
+Genero: Crime, Drama
+Duracao: 175 minutos
+
+Titulo: Interestelar
+Ano: 2014
+Diretor: Christofer Nolan
+Genero: Ficcao Cientifica, Aventura
+Duracao: 169 minutos
+
+Titulo: 2001 - Uma Odisseia No Espaco
+Ano: 1968
+Diretor: Stanley Kubrick
+Genero: Ficcao Cientifica
+Duracao: 142 minutos
