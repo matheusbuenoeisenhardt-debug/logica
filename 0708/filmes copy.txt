@@ -14,5 +14,4 @@ Titulo: 2001 - Uma Odisseia No Espaco
 Ano: 1968
 Diretor: Stanley Kubrick
 Genero: Ficcao Cientifica
-Duracao: 142 minutoso tempo e o vento,eu,educacional,400
-meu penis esquerdo,thiago lifert,acao,67
+Duracao: 142 minutos
