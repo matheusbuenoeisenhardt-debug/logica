@@ -1,0 +1,2 @@
+diretor = next(f).strip() #significa que vai para procima linha
+except FileNotFoundError: # exeto se der o erro de arquivo inesistente

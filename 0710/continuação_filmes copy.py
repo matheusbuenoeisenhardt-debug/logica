@@ -22,10 +22,17 @@ def adicionar_filme():
     print(f"Filme '{titulo}' adicionado com sucesso!\n")
 
 def contar_filmes():
-    with open("0708/filmes.txt", "r") as f:
-        conteudo = f.readlines()
-        quantidade = len(conteudo)
-    print(f"Quantidade total de filmes: {quantidade}\n")
+         contador = 0
+         try:
+         with open("0708/filmes.txt", encoding="utf-8", "r" ) as f:
+                  for linha in f:
+                       if linha.strip().startwith("Titulo"): #linha.strip() remove espaços em branco no início e no final da linha, e startwith() verifica se a linha começa com a palavra "Titulo"
+                            contador += 1
+         print(f"quantidade de filmes cadastrados: {contador}")
+         except FileNotFoundError:
+                  print("arquivo não encontrado.")
+
+         print(f"quantidade de filmes: {contador}")
 
 def info_por_titulo():
     titulo = input("Digite o titulo do filme: ")
