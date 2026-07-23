@@ -1,2 +1,3 @@
 diretor = next(f).strip() #significa que vai para procima linha
 except FileNotFoundError: # exeto se der o erro de arquivo inesistente
+variavel.lower = significa que as letras dentro da variavel fiquem na forma minuscula
