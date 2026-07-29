@@ -1,0 +1,5 @@
+para tirar os colchetes das listas:
+
+print(*num, sep=',')#'*' mostra a lista sem os colchetes, e sep é a string entre as variaveis da lista.
+input:[1, 2, 3]
+output:1, 2, 3
