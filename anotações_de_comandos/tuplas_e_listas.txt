@@ -1,0 +1,15 @@
+variaveis compostas são variaveis que podem armazenar mais de um valor, como por exemplo listas e tuplas.
+tuplas são um conjunto de informaçoes armazenadas da seguinte forma:
+
+comidas = ("hamburguer", "pizza", "limonada", "frango")
+
+desse jeito os dados ficam armazenados da seguinte forma:
+
+comidas(0) = "hamburguer"
+comidas(1) = "pizza"
+comidas(2) = "limonada"
+comidas(3) = "frango"
+
+as tuplas são imutaveis, ou seja, não podem ser alteradas depois de criadas.
+Já as listas são mutáveis, podendo ter seus valores alterados, adicionados ou removidos.
+

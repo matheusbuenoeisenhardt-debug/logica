@@ -1,0 +1,68 @@
+if, elif e else.
+
+float = para calcular ou usar números com ./,
+
+int = para calcular ou usar números inteiros
+
+print(f"escrita"), o f serve para poder facilitar a escrita do código, para juntar variaveis e palavras ou números apenas usando chaves = {}
+
+f= .1f = gera 1 casa decimal depois do ./, e se mudar o número muda também as casas decimais aplicadas
+
+and = aciona se as duas condições forem verdadeiras
+
+.
+
+or = aciona se alguma das afirmativas for verdadeira
+
+.
+
+% = o que resta da divisão, usado para par ou impar
+
+wile = enquanto tal coisa for verdade o comando seguinte será executado, ex:
+x = 1
+while x <= 100:
+ print (x)
+ x = x + 1
+
+while True = repete o código até que algo interrompa
+
+break = interrompe o codigo, tanto o while quanto o for, ex:
+nr = 5
+x = 1
+while x <= 10:
+  if x <= 10:
+    print(f"{nr} x {x} = {nr * x}")
+    x += 1
+  else:
+    break
+
+for i in range(1, 11): # Loop de 1 a 10 para a tabuada, o primeiro número diz por onde começa e o segundo onde é interrompido.
+
+for letra in nome: = para cada letra na lista/variavel nome ele executara o comando indivualmente, incluindo simbolos e o espaço.
+
+if letra.lower() in 'aeiou': = se a letra em sua forma minuscula se encaixar em alguma letra do grupo, "a e i o u" o comando será executado
+
+elif letra.isalpha(): = confere se a letra pertence ao alfabeto, invalidando caracteres como barras, parenteses e espaço ex:
+nome = input('qual é o seu nome?: ')
+vogais = 0
+consoantes = 0
+print( )
+for letra in nome:
+  if letra.lower() in 'aeiou':
+    print(f'A letra: {letra} é uma vogal')
+    print( )
+    vogais += 1
+  elif letra.isalpha():
+    print(f'A letra {letra} não é uma vogal')
+    print( )
+    consoantes += 1
+print(f'o número de vogais é: {vogais} e o número de conçoantes é {consoantes}')
+
+maior = None #o none significa que não existe um valor definido, ou seja o comando deve adicionar um valor a essa variavel, ex:
+maior = None
+for i in range(5):
+  num = int (input('digite um, número: '))
+  if maior is None or num > maior:
+    maior = num
+print(f'maior número: {maior}')
+
