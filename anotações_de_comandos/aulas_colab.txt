@@ -66,3 +66,27 @@ for i in range(5):
     maior = num
 print(f'maior número: {maior}')
 
+import time = acessa a biblioteca e permite usar comandos como por exemplo o time.sleep()
+time.sleep() = espera a quantidade de segundos escolhida, ex:
+import time
+
+linhas = 5
+colunas = 10
+
+cinema = []
+
+linha = []
+
+for j in range(colunas):
+  linha.append("L")
+
+print(linha)
+
+print(cinema)
+time.sleep(2)
+
+for i in range(linhas):
+  cinema.append(linha)
+  print(cinema)
+  time.sleep(2)
+

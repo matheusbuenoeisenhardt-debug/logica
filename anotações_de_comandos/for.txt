@@ -3,3 +3,6 @@ for i in range(1, 11): # Loop de 1 a 10 para a tabuada, o primeiro número diz p
 for letra in nome: = para cada letra na lista/variavel nome ele executara o comando indivualmente, incluindo simbolos e o espaço.
 
 break = interrompe o codigo
+
+for i in range(len(lista)):     #o len faz a repeticão acontecer de acordo com quantos números tem a lista. já o i assumirá o valor da posição atual: 1° volta = 0, 2° volta = 1, 3° volta = 2... 
+                                
