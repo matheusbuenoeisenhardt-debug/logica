@@ -1,0 +1,5 @@
+for i in range(1, 11): # Loop de 1 a 10 para a tabuada, o primeiro número diz por onde começa e o segundo onde é interrompido.
+
+for letra in nome: = para cada letra na lista/variavel nome ele executara o comando indivualmente, incluindo simbolos e o espaço.
+
+break = interrompe o codigo
