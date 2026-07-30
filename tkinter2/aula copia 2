@@ -1,0 +1,19 @@
+import tkinter as tk
+from tkinterk import ttk
+
+root = tk.Tk()
+root.title("Exemplo Combobox")
+
+def selecao_mudou(evento) :
+         label.config(text=f"{evento.widget.get()} selecionado!")
+
+combobox = ttk.combobox(root,values=["primeiro", "segundo", "terceiro"])
+
+combobox.set("primeiro")
+
+combobox.bind("<<ComboboxSelected>>", selecao_mudou)
+
+combobox.pack()
+
+label = tk.label(root, text="primeiro selecionado!")
+label.pack()
