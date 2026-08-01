@@ -4,7 +4,7 @@ from tkinter import messagebox
 # 1. Criação da janela principal
 root = tk.Tk()
 root.title("Exemplo de Checkbutton")
-root.geometry("3000x150")
+root.geometry("300x150")
 
 # 2. Criação da variável do Tkinter (DEPOIS de criar o root)
 checkbox_estado = tk.IntVar()
@@ -33,7 +33,7 @@ checkbox = tk.Checkbutton(
 )
 
 # Configuração inicial
-checkbox.deselect()        #como o botão vai aparecer, select vai aparecer selecionado e deselect vai aparecer deselecionado
+checkbox.select()        #como o botão vai aparecer, select vai aparecer selecionado e deselect vai aparecer deselecionado
 checkbox.pack(expand=True) #centraliza o componente no meio da tela
 
 # 5. Loop principal para manter a janela aberta
