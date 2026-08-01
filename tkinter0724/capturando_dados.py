@@ -8,7 +8,7 @@ def button_command():
     nome= entry.get()
     messagebox.showinfo("nome completo", nome)
 
-label = tk.Label(root, text="Digite seu nome completo pnc:")
+label = tk.Label(root, text="Digite seu nome completo:")
 entry = tk.Entry(root)
 button = tk.Button(root, text="mostrar", command=button_command)
 

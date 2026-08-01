@@ -9,8 +9,8 @@ root.geometry("300x250")
 # Função para calcular o IMC
 def calcular():
     try:
-        peso = float(entry_peso.get())
-        altura = float(entry_altura.get())
+        peso = float(entry_peso.get()).replace(",", ".")
+        altura = float(entry_altura.get())replace(",", ".")
 
         imc = peso / (altura ** 2)
 
