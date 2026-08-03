@@ -1,0 +1,32 @@
+Usuario: Matheus
+Senha: teste123
+
+Usuario: joão
+Senha: alcatra321
+
+Usuario: kaio
+Senha: 321432543
+
+Usuario: mauricio
+Senha: geladeira
+
+Usuario: renato
+Senha: lavanderia591348
+
+Usuario: fabricio
+Senha: robotica.saoluis
+
+Usuario: fabio
+Senha: 0987
+
+Usuario: antonio
+Senha: 9123712946
+
+Usuario: gustavo
+Senha: 324525
+
+Usuario: rafael
+Senha: 97249264
+
+Usuario: germano
+Senha: 2482793
