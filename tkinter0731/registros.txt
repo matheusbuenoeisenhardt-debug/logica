@@ -30,3 +30,6 @@ Senha: 97249264
 
 Usuario: germano
 Senha: 2482793
+
+Usuario: BernardinhoPequeno
+Senha: batatafrita123
