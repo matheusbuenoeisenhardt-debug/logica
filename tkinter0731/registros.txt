@@ -33,3 +33,6 @@ Senha: 2482793
 
 Usuario: BernardinhoPequeno
 Senha: batatafrita123
+
+Usuario: aleatório
+Senha: arvore

@@ -9,6 +9,25 @@ root = tk.Tk()
 root.resizable(False, False)
 root.config(bg=COR_BEGE)
 
+def registrar():
+    with open("registros.txt", "r") as f:
+        conteudo = f.read()
+        usuario = entry_usuario.get()
+        senha = entry_senha.get()
+
+        if (f"Usuario: {usuario}") in conteudo:
+            messagebox.showerror("Erros", "Usuário já cadastrado.")  #o showerror cria um x vermelho
+            entry_usuario.delete(0, tk.END)
+            entry_senha.delete(0, tk.END)
+            return
+        else:
+            with open("registros.txt", "a", encoding="utf-8") as f:
+                f.write(f"\nUsuario: {usuario}\n")
+                f.write(f"Senha: {senha}\n")
+            messagebox.showinfo("Sucesso", "Usuário cadastrado com sucesso!")   #o showinfo cria um sinal de exclamação azul
+            entry_usuario.delete(0, tk.END)
+            entry_senha.delete(0, tk.END)
+
 def encerrar():
     messagebox.showinfo(
         "Encerramento",
@@ -23,8 +42,9 @@ def mostrar_estado():
         txt = "não desejo lembrar desse dispositivo"
     checkbox.config(text=txt)
 
-def login():
-    if
+
+                    
+
 
 # Título
 message = tk.Label(root, text="Faça seu login", font=("Arial", 22, "bold"), bg=COR_BEGE)
@@ -39,8 +59,8 @@ label_imagem.pack(expand=True)
 message1 = tk.Label(root, text="Usuário", pady=10, anchor="w", bg=COR_BEGE, bd=0)
 message1.pack(expand=False, anchor="w", padx=190)
 
-entry_peso = tk.Entry(root)
-entry_peso.pack()
+entry_usuario = tk.Entry(root)
+entry_usuario.pack()
 
 # Senha
 message2 = tk.Label(root, text="Senha", pady=10, anchor="w", bg=COR_BEGE, bd=0)
@@ -57,7 +77,7 @@ frame_botoes.pack(pady=20)
 botao = tk.Button(frame_botoes, text="Entrar", width=12)
 botao.pack(side="left", padx=5)
 
-botao2 = tk.Button(frame_botoes, text="Cadastrar", width=12)
+botao2 = tk.Button(frame_botoes, text="Cadastrar", width=12, command=registrar)
 botao2.pack(side="left", padx=5)
 
 botao3 = tk.Button(frame_botoes, text="cancelar", width=12, command=encerrar)
