@@ -25,10 +25,8 @@ entry_senha = tk.Entry(root, show="*")
 entry_senha.pack()
 
 botao = tk.Button(root, text="entrar", width=20)
-botao.pack(pady=20, anchor="w", padx=90)
+botao.pack(expand=True)
 
-botao2 = tk.Button(root, text="entrar", width=20)
-botao2.pack(pady=20, anchor="e", padx=90)
 
 #inicia o loop principal da interface gráfica
 root.geometry ("500x600+50+50")

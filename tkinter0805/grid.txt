@@ -1,0 +1,9 @@
+o grid organiza widgets(areas) como uma matriz[0, 1, 2] tanto horizontal quanto vertical
+
+comandos:
+
+row/column: indice/tamanho de linha ou coluna do widget
+
+rowspan/columnspan: quantas linhas ou colunas o widget ira utilisar
+
+stick: ???

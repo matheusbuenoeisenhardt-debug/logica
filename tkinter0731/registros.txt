@@ -36,3 +36,6 @@ Senha: batatafrita123
 
 Usuario: aleatório
 Senha: arvore
+
+Usuario: henrique
+Senha: henrique123

@@ -102,7 +102,7 @@ checkbox = tk.Checkbutton(
 checkbox.select()
 checkbox.pack(expand=True, padx=10, side="left", anchor="w")
 
-label_esqueceu = tk.Label(frame_baixo, text="esqueceu a senha?", bg=COR_BEGE)
+label_esqueceu = tk.Label(frame_baixo, text="esqueceu a senha?", bg=COR_BEGE, fg="blue", cursor="hand2") #fg é a cor do texto
 label_esqueceu.pack(expand=True, padx=10, side="left", anchor="w")
 
 root.geometry("500x600+50+50")
