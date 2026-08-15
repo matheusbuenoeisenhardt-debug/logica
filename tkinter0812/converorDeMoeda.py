@@ -13,8 +13,8 @@ def realizar_conversao():
             "EUR": 0.92,
         }
 
-        valor_em_dolar = valor / taxas[origem]
-        valor_convertido = valor_em_dolar * taxas[destino]
+        valor_em_dolar = valor / taxas[origem]                # Converte o valor para dólares
+        valor_convertido = valor_em_dolar * taxas[destino]    # Converte de dólares para a moeda de destino
 
         label_resultado.config(text=f"Resultado: {valor_convertido:.2f} {destino}")
     except ValueError:
