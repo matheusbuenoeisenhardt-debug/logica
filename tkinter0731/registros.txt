@@ -39,3 +39,6 @@ Senha: arvore
 
 Usuario: henrique
 Senha: henrique123
+
+Usuario: Thales
+Senha: 321
