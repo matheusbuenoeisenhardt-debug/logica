@@ -43,14 +43,26 @@ def mostrar_estado():
     checkbox.config(text=txt)
 
 def login():
+    usuario_buscado = entry_usuario.get()
+    verificacao_inserida = entry_senha.get()
+    Encontrado = False
 
-    entrar = 
+    
     try:
-        with open("tkinter0731/registros.txt", "r", encoding="utf-8") as f:
+        with open("0731/registros.txt", "r", encoding="utf-8") as f:
             for linha in f:
-                if linha.startswith "Usuario":
+                if "Usuario:" in linha:
+                    # Extrai o título ignorando o que estiver antes de "Titulo:"
+                    pessoa = linha.split("Usuario:", 1)[1].strip()
                     
-
+                    if pessoa == usuario_buscado:
+                        if "Senha:" in next(f).strip():
+                            verificar_senha = linha.split("Senha:", 1)[1].strip()
+                                messagebox.showinfo(
+                                    "Encerramento",
+                                    "Você cancelou o login."
+                                )
+                        encontrado = True
 
 # Título
 message = tk.Label(root, text="Faça seu login", font=("Arial", 22, "bold"), bg=COR_BEGE)
