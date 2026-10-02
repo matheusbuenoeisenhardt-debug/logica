@@ -1,4 +1,4 @@
-import tkinter as tk
+import tkinter as tk                             #para iniciar o codigo use: cd tkinter0731
 from tkinter import messagebox
 
 # Definindo a cor bege padrão para todo o projeto
@@ -9,8 +9,9 @@ def abrir_tela_principal(nome_usuario):
     # Cria a nova janela usando Toplevel (janela secundária)
     tela_principal = tk.Toplevel()
     tela_principal.title("Área Logada")
-    tela_principal.geometry("400x300+100+100")
+    tela_principal.geometry("600x500+100+100")
     tela_principal.config(bg="#ADD8E6") # Azul claro para diferenciar
+    tela_principal.resizable(False, False)
 
     # Dá as boas vindas com o nome do usuário que logou
     mensagem = tk.Label(tela_principal, text=f"Bem-vindo(a), {nome_usuario}!", font=("Arial", 18, "bold"), bg="#ADD8E6")
