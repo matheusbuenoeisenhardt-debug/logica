@@ -10,7 +10,7 @@ def abrir_tela_principal(nome_usuario):
     tela_principal = tk.Toplevel()
     tela_principal.title("Área Logada")
     tela_principal.geometry("600x500+100+100")
-    tela_principal.config(bg="#ADD8E6") # Azul claro para diferenciar
+    tela_principal.config(bg="#ff3030") # Azul claro para diferenciar
     tela_principal.resizable(False, False)
 
     # Dá as boas vindas com o nome do usuário que logou
